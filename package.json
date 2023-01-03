@@ -1,0 +1,64 @@
+{
+  "name": "explainer-cli",
+  "version": "0.0.0",
+  "description": "Explain text or files querying OpenAI models",
+  "main": "./lib-esm/index.js",
+  "types": "./lib-esm/index.d.ts",
+  "keywords": [
+    "openai-cli",
+    "openai",
+    "explainer",
+    "summarize",
+    "Open AI",
+    "gpt3"
+  ],
+  "author": "Santi Miranda",
+  "license": "MIT",
+  "files": [
+    "src",
+    "lib-esm"
+  ],
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "clean": "rimraf lib lib-esm",
+    "eslint": "eslint src --cache",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prepack": "npm run tsc",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
+    "tests": "vitest run --coverage && npm run eslint && npm run prettier && npm run check-types",
+    "watch": "vitest",
+    "coverage": "vitest --coverage",
+    "tsc-only": " tsc --project tsconfig.json",
+    "tsc": "npm run clean &&  tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santimirandarp/explainer-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santimirandarp/explainer-cli/issues"
+  },
+  "homepage": "https://github.com/santimirandarp/explainer-cli#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "@vitest/coverage-c8": "^0.26.3",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.31.0",
+    "eslint-config-cheminfo-typescript": "^11.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.8.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vitest": "^0.26.3"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "meow": "^11.0.0"
+  },
+  "type": "module"
+}

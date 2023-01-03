@@ -1,0 +1,795 @@
+American Journal of Engineering Research (AJER)
+
+2014
+
+American Journal of Engineering Research (AJER)
+e-ISSN : 2320-0847 p-ISSN : 2320-0936
+Volume-03, Issue-07, pp-33-43
+www.ajer.org
+Review Paper
+
+Open Access
+
+Comprehensive view on chemistry, manufacturing & applications
+of lanolin extracted from wool pretreatment
+Amit Sengupta* and Jagadananda Behera
+Scientist at COE in Sportech Lab at Wool Research Association, Thane, Maharashtra, India
+(Attached to Ministry of Textiles, Govt. of India)
+Abstract: - Lanolin also called wool wax or wool grease is a yellow waxy substance secreted by the sebaceous
+glands of wool-bearing animals. Most lanolin used by humans comes from domestic sheep breeds that are raised
+specifically for their wool. Crude lanolin constitutes about 5–25% of the weight of freshly shorn wool. The wool
+from one Merino sheep will produce about 250–300 ml of recoverable wool grease. Lanolin is extracted by
+scouring the wool in hot water with a detergent to remove dirt, wool grease (crude lanolin), suint (sweat salts),
+and anything else stuck to the wool. The wool grease is continuously removed during this washing process
+by centrifugal separators, which concentrate it into a wax-like substance melting at approximately 38°C. Lanolin
+and its many derivatives are extracted from wool scouring liquor and converted to a value added products that
+are generally used extensively in both the personal care (e.g. in high value cosmetics, facial cosmetics, lip
+products, etc.) and health care sectors. It is frequently used in protective baby skin treatment and as a treatment
+for sore nipples in breastfeeding mothers. Lanolin is used commercially in many industrial products ranging
+from rust-proof coatings to lubricants.
+Keywords: - Wool Grease, Grease Recovery, Lanolin Refinement, Applications
+
+I.
+
+INTRODUCTION
+
+Wool is a natural, protein, multi-cellular, staple fibre from the fleece of domesticated sheep. Wool fibre
+contains different contaminants such as Natural, acquired and applied. Natural impurities in the fleece consist
+primarily of wool grease and suint that are produced by the sheep. Wool grease is secreted from the sheep‟s skin
+and accumulates in the wool fibre as it grows. Wool grease is a mixture of fats and oils with a combined melting
+point of approximately 40°C. After separation during scouring, wool wax is contaminated with detergent and
+suint and is, therefore called wool grease, as distinct from wool wax [1]. Wool grease can be emulsified in water
+by the addition of a detergent. Suint is made up from a mixture of primarily potassium-based salts of fatty acids,
+such as oleic and stearic acids. It is excreted from the sweat glands of the sheep and dries onto the skin and wool
+fibres. Suint is highly soluble in water and can be isolated from the raw wool by aqueous extraction. Acquired
+impurities are picked up from the animal‟s natural environment and can be categorized as mineral or vegetable
+contaminants. Mineral contaminants include dirt, dust, sand and stones. These are usually quite straightforward
+to remove by washing. Vegetable matter (VM) caught in the animal‟s fleece commonly includes straw, grass,
+seedpods, pieces of plant tissue and twigs. Parasites such as ticks and blowfly maggots as well as faeces
+attached to the wool are generally defined as VM along with the true vegetable contaminants. Applied
+impurities cover the range of farm chemicals such as sheep dip and fertilizers applied directly to the sheep or to
+the pasture upon which they are grazing. These generally only occur in trace quantities and can be very difficult
+to separate from the other contaminants.
+The use of crude wool grease washed from the fleece of sheep has been known for centuries. The
+ancient Greeks (about 700 B.C.) are known to have extracted it by boiling wool and skimming “fat” from the
+surface. Liebrich and Braun of Germany are credited with developing the first refined neutral wool grease and
+coining the name “lanolin” in 1882.
+
+www.ajer.org
+
+Page 33
+
+American Journal of Engineering Research (AJER)
+Ingredients
+Fibre
+Dirt
+Suint
+Grease
+Water
+
+2014
+
+Table 1 Ingredients of Merino and crossbred wool [1]
+Merino
+Crossbred
+49
+61
+19(6.3-43.8)
+8 (7.9)
+6 (2-12)
+8 (2.2-12.1)
+16 (10-25.4)
+11 (1.6-8.5)
+10
+12
+
+Table 2 Typical effluent characteristics (after wool grease recovery) [2-10]
+Contaminant Heavy Scour Effluent Rinse Water
+Parameters
+Biological Oxygen Demand
+(BOD) [mg/L]
+Chemical Oxygen Demand
+(COD) [mg/L]
+Total Suspended Solids (TSS)
+[mg/L]
+Solvent Extractable (SE) [mg/L]
+
+II.
+
+9,800 – 50,000
+
+200 – 1,000
+
+30,000 – 100,000
+
+500 – 2,000
+
+20,000 – 60,000
+
+100 – 700
+
+1,000 – 2,000
+
+50 – 1,500
+
+CHEMICAL COMPOSITION OF WOOL GREASE
+
+Wool Grease is a natural substance excreted from the sebaceous gland attached to the root of each wool fibre in
+the basal layer of the sheep‟s skin [2].
+
+Fig 1 Dermal detail of a wool follicle
+
+www.ajer.org
+
+Page 34
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+The wax excretion forms a hydrophobic coating on the fibre, protecting it from the elements. By chemical
+definition, the absence of glycerol in this oily excretion makes it a wax. Wool wax itself is a complex mixture of
+naturally occurring esters of water, insoluble alcohols and higher fatty acids.
+Table 3 Physical properties of wool wax [3-10]
+Physical Property
+Approximate content value
+Colour
+Yellow to pale brown
+Specific Gravity (15oC)
+0.94-0.97
+Refractive Index (40 oC)
+1.48
+Melting point
+35-40 oC
+Free acid content
+4-10%
+Free alcohol content
+1-3%
+Iodine value (Wijs)
+15-30
+Sponification value
+95-120
+Molecular weight (Rast; in Salol)
+790-880
+Proportion of fatty acid
+50-55%
+Melting Point
+40-45 oC
+Iodine value (wijs)
+10-20
+Acids:
+Mean Molecular weight
+330g/mol
+Melting Point
+55-65 oC
+Alcohol:
+Iodine value (wijs)
+40-50
+(Dam)
+70-80
+Mean Molecular weight
+370 g/mol
+Isolation of specific esters is extremely difficult and seldom attempted [3-10] but detailed analysis has
+been carried out on the free acids and alcohols from which the esters are formed. In 1954 a large range of wool
+wax acids were identified and found to fall into 4 distinct series: normal (Fig a), iso- (Fig b) anteiso- (Fig c), and
+hydroxy-acids (Fig d). Examples of each series are given below:
+
+www.ajer.org
+
+Page 35
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+Fig 2 (a, b & c) Structure of wool wax acids
+Table 4 Acidic fraction of wool wax
+Approximate content
+(% of total Acids)
+n-acid
+7
+Iso-acid
+22
+Anteis-acid
+29
+α-Hydroxy-n-acids
+25
+α-Hydroxy-iso-acids
+3
+Total
+86
+Residual (Speculated to be mostly saturated acids)
+14
+Acidic Fraction
+
+The free alcohol component is primarily made up of three groups: aliphatic alcohols, sterols, and isocholesterol.
+A summary of these groups and their constituents is given in Table 5.
+Table 5 Alcoholic fraction of wool wax
+Approximate content
+(% of total Acids)
+n-alcohol
+4
+Iso- alcohol
+6
+Anteis- alcohol
+7
+n-Alkan-1,2-diols
+0.5
+Iso-Alkan-1,2-diols
+25
+Aliphatic Alcohol
+Iso-Alkan-1,2-diols
+3
+Sterols
+28
+Isocholoresterol
+27
+Hydrocarbons
+1
+Total
+78
+Unidentified Residue
+22
+Alcoholic Fraction
+
+From a practical perspective, the wool grease dispersed in scour effluent consists of two main fractions,
+typically referred to as „oxidised‟ and „unoxidised‟ wool grease. The oxidised wool grease has been shown to be
+associated with the tip of the wool staple where the grease is exposed to the air and the external environment
+while the unoxidised fraction has been shown to be more predominant at the base and centre of the wool staple
+[3-10]. It is generally agreed that the oxidised fraction has a higher density than the unoxidised, but the actual
+values reported in various works vary widely.
+
+III.
+
+WOOL GREASE RECOVERY
+
+Due to its low specific gravity, unoxidised wool wax is most commonly recovered by passing the scour
+effluent through a centrifuge. At present, stacked disc centrifuges similar to those employed in the dairy industry
+are used in either a 2 or 3 stage separation and purification process. The main processes used throughout the
+world for wool grease recovery involve some combination of thermal cracking and centrifuging. Solvent
+extraction methods have been extensively developed and typically give a very high quality product [3-10], but
+these technologies have never gained widespread use.
+
+www.ajer.org
+
+Page 36
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+Fig 3 Primary centrifuge
+3.1 SINGLE-STAGE WOOL GREASE RECOVERY
+Scour effluent heated to at least 64°C is fed from above into the centre section of the primary centrifuge as
+shown in Figure 3. Inside the centrifuge the effluent flows into the stack of cone shaped discs, which rotate at
+approximately 6000rpm [1-10]. In the disc stack the lighter wool grease flows upwards between the discs
+towards the centre of the bowl where it is discharged as primary cream. A second emulsion phase flows
+downwards between the discs due to its higher density, from where it flows up the walls of the outer bowl and is
+also discharged at the top of the centrifuge. Any dirt and heavy solids in the feed are also carried downwards
+between the discs but, due to having higher density than the aqueous emulsion phase, do not flow up the walls
+with the emulsion phase and are continuously discharged through jets in the bottom of the bowl wall. The
+primary cream is then fed into a thermal-cracking tank where it is held for in excess of five hours at
+approximately 90°C. Over this period the cream splits into three distinct phases.
+
+Fig 4 Single-stage wool wax recovery
+After the solution has been given time to separate, the heavy aqueous phase is drawn off the bottom of the tank
+to drain, the emulsion phase is recycled to the centrifuge and then the wool grease floating in the top of the tank
+is drawn off into drums. Due to the rising value of recovered wool grease and mounting restrictions on effluent
+discharges, single stage wool grease recovery is no longer used in the main stream scouring industry.
+
+www.ajer.org
+
+Page 37
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+3.2 TWO-STAGE WOOL GREASE RECOVERY
+In a two-stage system, primary centrifuges and thermal cracking tanks are again used, but this time the cream
+and emulsion from the cracking tank is fed to a bank of secondary centrifuges for further purification. In a twostage system the cream from the primary centrifuges is around 60 – 80% wool wax. The product from the
+secondary centrifuges is typically in excess of 99% pure. [10]
+
+Fig 5 Two-Stage Wool Grease Recovery
+
+3.3 THREE-STAGE WOOL GREASE RECOVERY
+In a three-stage system a greater overall proportion of the wool grease is recovered from the effluent by
+the primary centrifuges. The resultant primary cream however is typically only 10 – 20% grease. This high
+volume low strength primary cream is then thermally cracked and passed through the secondary centrifuge at
+approximately 90°C resulting in a secondary cream containing 70– 80% wool grease. The cream from the
+secondary centrifuge, still at 90°C, is then passed to a purifying centrifuge where it is mixed with clean hot
+water (which aids in washing impurities from the grease) and is then separated to produce wool grease with
+purity in excess of 99%.
+
+www.ajer.org
+
+Page 38
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+Fig 6 Three-Stage Wool Grease Recovery
+
+IV.
+
+LANOLIN REFINEMENT
+
+The harvested wool wax is a dark, highly viscous and greasy paste. In this crude form, it can be used in
+several technical applications. However, due to the colour, peculiar odour and sizeable amount of impurities it
+retains at this stage, the wool wax must be refined further before it can be used in cosmetic products and by the
+pharmaceutical industry [11, 12].
+Table 6 Constituents of Lanolin Alcohols and Lanolin Fatty Acids [13]
+Lanolin Alcohols
+Number
+Contents
+Carbon
+Carbon Length of
+Identified
+(wt%)
+Length
+Major Fractions
+Aliphatic Mono-Alcohols
+Normal
+
+16
+
+1.6
+
+C14-C34
+
+C24,C26
+
+Iso
+Anteiso
+Aliphatic 1,2 diols
+Normal
+Iso
+Anteiso
+Total of aliphatic alcohols
+
+11
+11
+14
+
+6.5
+9.0
+0.4
+
+C14-C36
+C17-C35
+C12-C2
+
+C20,C22,C26
+C21,C25,C27
+C16,C18,C20
+
+9
+8
+69
+
+5.9
+2.4
+25.8
+C27 Sterols
+38.0
+trace
+3.6
+
+C14-C3
+C15-C29
+
+C18,C20,C22,C24
+C21,C23
+
+Cholesterol
+Dihydrocholesterol
+Cholesta-3,5-dien-7-one
+C30 Trimethyl Sterols
+Lanosterol
+Dihydrolanosterol
+3-Hydroxylanosta-8-en7-one
+Hydrocarbons &
+undetermined
+Total unsaponified
+matters
+
+C27
+
+14.8
+10.3
+1.6
+
+C30
+
+5.9
+100.0
+Non-Hydroxy Fatty Acids
+12.1
+C8-C38
+
+Normal
+
+27
+
+Iso
+
+17
+
+22.1
+
+C8-C40
+
+Anteiso
+
+18
+
+26.3
+
+C7 -C41
+
+Normal
+Iso
+Anteiso
+
+23
+12
+12
+
+Normal
+Iso
+Anteiso
+Total
+Unsaturated fatty acids
+Polyhydroxy fatty acids
+
+14
+8
+7
+138
+42
+––
+
+Total fatty acids
+confirmed
+
+180
+
+www.ajer.org
+
+Hydroxy Fatty Acids
+21.8
+4.5
+0.8
+Hydroxy Fatty Acids
+3.0
+0.8
+1.3
+2.1
+4.7
+
+C14,C16, C24,C26
+C14,C16,C18,C20,C2
+6
+C15,C19,C21,C25,C2
+7
+
+C10-C32
+C12-C34
+C11-C33
+
+C16
+C18,C24
+C23,C25
+
+C22-C36
+C22-C36
+C23-C35
+
+C30,C32
+C30,C32
+C25,C31
+C16,C18
+––
+
+99.5
+
+Page 39
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+4.1 FIRST STAGES OF REFINEMENT
+The techniques and materials used for refining lanolin vary from processor to processor. Generally, the
+first step involves the break-up of soaps and removal of acid-soluble impurities by refluxing the crude wool wax
+in an aqueous acid solution. After separation and disposal of the aqueous phase, the free fatty acids in the wax
+are neutralized via an alkaline treatment, preferably using a sodium hydroxide or carbonate solution. The
+resulting soaps, which are formed by the reaction of fatty acids with alkali metal ions such as sodium, can be
+extracted using mixtures of ethanol or isopropanol with water. The alcohols function both as a co-solvent and an
+agent to reduce the emulsifying properties of surfactant molecules. This makes sure that undesired materials are
+washed out of the wax mixture effectively.
+4.2 IMPROVING THE PURITY
+Depending on the desired purity grade, this extraction procedure can be repeated with more highly
+concentrated alcohol mixtures. A further reduction of contaminants can be achieved through treatment with
+adsorbents, such as activated carbon, followed by filtration. Residual pesticides and odours can be removed by
+exposure to high vacuum and simultaneous heating of the wool wax. This processing step also reduces the
+amount of free lanolin alcohols. By slightly varying vacuum and temperature conditions, their content can be
+reduced to less than 3% by weight, which is crucial if the desired result is product hypoallergenicity.
+4.3 COLOUR CHANGE
+At this stage in the refinement process, most of the impurities - free fatty acids, detergents and
+pesticides will be sufficiently reduced and the product will be pleasantly deodorised. The dark colour will have
+faded into a pale yellow tone. While the colour of the refined lanolin has nothing to do with its quality, some
+cosmetic applications require bright lanolin. This can be achieved by bleaching the wax with common oxidative
+reagent such as: hydrogen peroxide. If the lanolin is not bleached, then small concentrations of another approved
+antioxidant, such as butylated hydroxytoluene (BHT), are usually added at the end of the refinement process.
+This stops the air getting to the lanolin, preventing superficial degradation by autoxidation.
+4.4 FINAL STEPS
+Finally, residual water is removed through a vacuum-drying process to give refined lanolin anhydrous, a pale,
+ointment-like substance with a scarcely recognisable odour.
+Table 7 Components of Crude centrifugal wool wax and refined pharmaceutical lanolin [13]
+Refined
+Component
+Crude centrifugal wool wax pharmaceutical lanolin
+Water
+Free fatty acids
+Free fatty alcohols
+Wax esters
+Water soluble salts of potassium
+and sodium
+Lipid soluble salts of calcium,
+magnesium, iron, aluminium
+Detergent residues
+Pesticide residues
+Polyaromatic hydrocarbons
+Particulate insoluble matters
+Peroxide value
+Colour
+Odour
+
+1-5% w/w
+1-8% w/w
+6-12% w/w
+75-90% w/w
+
+0.05% w/w
+0.30% w/w
+2.50% w/w
+97.0% w/w
+
+0.1-0.2 w/w
+
+Not Quantified
+
+0.2-2.0 w/w
+0.1-1.0 w/w
+20-150 mg kg-1
+0.1-0.5 mg kg-1
+0.1-2.0
+Not quantified
+Dark brown
+Peculiar smell
+
+Not Quantified
+0.02% w/w
+0.8 mg kg-1
+0.08 µg kg-1
+not quantified
+12.0 meq. kg-1
+Pale to yellow
+Almost odorless
+
+It is soluble in organic solvents like diethyl ether, chloroform and chloroform/methanol mixtures, but poorly
+soluble in ethanol. It does not dissolve in (but is mixable with) water, forming stable water-in-oil (w/o)
+emulsions.
+
+www.ajer.org
+
+Page 40
+
+American Journal of Engineering Research (AJER)
+V.
+
+2014
+
+APPLICATION OF LANOLIN AND ITS DERIVATIVES
+
+Uses of Lanolin and its derivatives are as follows [14-25]:
+5.1 LANOLIN AS A PERSONAL CARE
+Wool wax is a natural substance, designed by nature to soften both skin and wool fibres, and to protect
+them against adverse weather conditions. The best known uses of refined wool wax products (lanolin and
+lanolin derivatives) are in medicine, cosmetics and toiletries, which take advantage of these natural protective
+qualities. Lanolin is a key ingredient in some of the world‟s most popular cosmetics and pharmaceuticals.
+Without it, they would not have the emollient qualities that protect and care for our skin and hair. The
+composition of lanolin resembles the intercellular lipids of the stratum corneum. This is the outermost layer of
+the skin, which consists of cholesterol, cholesterol derivatives and free fatty acids. These lipids play a crucial
+role in the skin‟s moisture control. Under normal conditions, water continuously evaporates from the skin's
+surface. Insufficient rehydration from lower epidermal layers leads to a dry, inflexible and brittle stratum
+corneum. Anhydrous lanolin can absorb more than 200% of its weight in water (WW) to form stable water-inoil (w/o) emulsions. It's also capable of redistributing this moisture to environments of low relative humidity
+[11].
+
+Fig 7 Lanolin is also used in lipsticks and eye make-up
+Lanolin is also widely used in:
+ foundation creams and other skin-cream products as an emulsifier, stabiliser, emollient and skin
+moisturiser;
+ oil-based skin lotions and cleansing oils as a skin moisturiser and to control viscosity;
+ toilet soaps as a superfatting agent, minimising the dehydrating effect of detergents, and to retain perfume;
+ aftershaves as a skin moisturiser and to control viscosity;
+ nail polish removers to prevent the defatting of the surrounding skin;
+ lipsticks and eye make-up as a film modifier and crystal inhibitor, for more uniformly dispersed pigment;
+ hair dressings and shampoos, as a conditioner against drying, scaling and brittleness of the hair shaft;
+ hair sprays, as a plasticiser;
+ hair bleaching agents, as a pH-stable emulsifier.
+5.2 MEDICAL APPLICATIONS: Lanolin is widely used in:
+ ointment bases, burns dressings and wound sprays
+o as an emulsifier, stabiliser and emollient
+o to support the wound healing process
+o to deliver active ingredients through the skin (trans-dermal);
+ pigmented medications (e.g. zinc oxide), as a dispersing agent;
+ topical products for cutaneous infections (e.g. acne) and in deodorising toiletries, as an anti-microbial and
+disinfectant.
+ ophthalmic ointments, as an emollient with high physiological compatibility and low irritation potential;
+ suppositories substantial base, as a carrier for active ingredients;
+ surgical adhesive tapes, as an impregnating agent, plasticiser and skin-suited stack enhancer;
+ chewing gum bases as a food additive (physiologically compatible emollient);
+ pre-blended combinations for specific purposes, such as absorption bases.
+
+www.ajer.org
+
+Page 41
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+5.3 INDUSTRIAL APPLICATION
+Lanolin is also used in various industrial applications such as:
+ Anti-corrosive effect on ferrous metals
+It is biodegradable and non-toxic, making it an ecologically friendly substance. Lanolin is also compatible with
+numerous additives that modify the consistency and characteristics of the resulting protective films (e.g. hard,
+soft, water soluble or insoluble). Strongly corroded seawater tanks and ships can be rust-protected with low
+viscous lanolin products. In the floor method, the liquids are dispersed on the weathered underground. The oil
+then creeps into the cavities of the rust structure, where it displaces the water by attaching to the metallic
+surface, forming a thick and durable anti-corrosive layer. The high penetration potential of lanolin-based anticorrosive preparations makes them attractive for rust treatment and prevention on automobile parts, especially
+on old-timers. Some Special anti-corrosive applications and functions
+ As a dewatering rust preventative for saltwater-resistant protection of ships and seawater tanks.
+ For protection and conservation of ferrous vehicle and vintage car parts such as:
+o crevices of front and car boot lid, wheel house, mudguard, underbody parts and so on;
+o engineering parts like cylinder pistons during storage;
+o chromed parts for better resistance against road salt, seawater and acid rain;
+o for regeneration of bitumen underbody protection.
+ For conserving items such as military hardware, conduits, pipelines, machinery, roofing tiles, sheets, plates,
+tools, steel wire ropes, surfaces of wood and fabric, and so on.
+ Lubricant applications
+Combined with its anti-corrosive potential, lanolin is also a valuable lubricating and conserving material for all
+types of engineering parts. Other special applications are
+ Lubrication grease for engineering parts.
+ Metal cutting oil.
+ Lubricant for metal processing, e.g. rolling, grinding, pressing and so on.
+ Leather and textiles
+To protect leather from natural degradation processes, it must be treated by chemical tanning agents to create a
+durable product from an organic source. Lanolin is a widely used ingredient for fat liquors, that are applied after
+tanning to soften leathers.
+Lanolin is used in products for:
+ treating and processing tanned leather
+ weathered leather, as a nourishing oil and emollient
+ shoe polishes, as an emulsifier and gloss enhancer
+ Textiles, as an emollient that gives a soft finish.
+ Other Industrial uses:
+ In paints, spraying varnishes and inks:
+o as a dispersing agent for homogeneous covering properties
+o preventing aggregation and precipitation of pigments to improve handling of paints
+o as an agent to decrease the drying time
+o as a penetration inhibitor for inks
+o to give and control fluidity.
+ In polishing waxes and abrasives.
+ As a paper conditioner:
+o enhancing paper softness
+o imparting steam resistance for wrappings of surgical instruments that have to be sterilized.
+ In industrial hand-cleaner creams and lotions as a superfatting agent to minimise the dehydrating effect of
+detergents.
+ In oil-binding agents, due to the high oil-binding capacity of lanolic acid metal soaps.
+ In concrete waterproofing products.
+ In numerous other applications, such as aircraft glues, conveyor belt wax, special greases, jointing pastes,
+vulcanising pastes and so on.
+
+VI.
+
+CONCLUDING REMARKS
+
+Detergent oriented wool scouring before dyeing is one of the pollution causing process in the mills
+contributing to the maximum of the total BOD, COD and TDS load in effluent. Lanolin is extracted by scouring
+the wool fibre in hot water with detergent and other auxiliary chemicals to remove dirt, wool grease (crude
+
+www.ajer.org
+
+Page 42
+
+American Journal of Engineering Research (AJER)
+
+2014
+
+lanolin), suint (sweat salts), and anything else stuck to the wool. The wool grease is continuously removed
+during this washing process by centrifugal separators, which concentrate it into a wax-like substance melting at
+approximately 38°C. Separation of wool grease from scouring liquor causes reduction in effluent load
+contributing less problem areas for waste-water treatment and discharging of wastewater into surface water and
+also useful to produce value added products (Ex: Lanolin) that are used as a Personal Care like- cosmetics and
+toiletries, medical application like- ointment bases, burns dressings and wound sprays and in different industrial
+applications like- Anti-corrosive effect on ferrous metals, Lubrication, Leather and textile industry, Paint and
+spray vanishes. Lanolin is not a significant allergen. As the incidence of allergies is less than approximately 6
+per million then lanolin is less of an allergen than fish, eggs, strawberries, etc. Super-refined lanolin is available
+recording even lower incidence of allergies which is ideal for the use in hypoallergenic cosmetics such as
+Lanocreme [13]. Apart from the above mentioned applications, there is lot of scope to produce different value
+added products by using various derivatives of wool grease. So, future research should be focus on the technical
+textile application and hygienic and hypoallergenic applications in medical textiles and other industrial
+applications.
+VII.
+ACKNOWLEDGEMENT
+The authors are grateful to the Director and Management of Wool Research Association, Thane, Maharashtra,
+India (Attached to Ministry of Textiles, Govt. of India) for giving valuable inputs, guidance and support.
+
+REFFERENCES
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+[18]
+[19]
+[20]
+[21]
+[22]
+[23]
+[24]
+[25]
+
+AK Roy Chowdhury., Textile preparation and dyeing, (Oxford & IBH publishing Co. Pvt. Ltd., 2006.)
+E.P.G Ghol. , L.D Vilensky., Textile science
+WRONZ, Introduction to Wool and the Wool Industry. Study Notes, Wool Research Organisation of
+New Zealand, Christchurch, 2001
+E.V . Truter., Wool Wax Chemistry and Technology, Cleaver-Hume Press Ltd., London , 1956
+R.G. Stewart, The Integration of Effluent Treatment with Scouring in New Zealand, WRONZ Report,
+WRONZ, Christchurch, 1974
+R.G. Stewart, Woolscouring and Allied Technology. Christchurch, Wool Research Organisation of New
+Zealand, 1988
+Source: Matthew J. Savage, Integrated Treatment Processes For Primary Wool Scouring Effluent, 2002
+J.H Brooks. , H Baumann., The Stabilisation of Scour-Liquor Emulsion by Proteins Extracted from Wool,
+Journal of the Textile Institute, 74, 1983, 249 - 255.
+J. H. Brooks, The Interfacial Tension of Greases from the Tip and Base of the Wool Fibre and the Role of
+Interfacial Tension in the Scouring of Raw Wool, Journal of the Textile Institute , 75, 1984, 278 – 284,.
+Source: TOPNZ, Wool scouring Course Notes, The Open Polytechnic of New Zealand, 1992
+Rogers, G. F. C. and Mayhew, Y. R. (1995). Thermodynamic and Transport Properties of Fluids. Oxford,
+Blackwell.
+Source: http://www.lanolin.com/news.html
+Source:http://www.alluredbooks.com/sample_pages/chem_manu_cosm_3rdedit_vol3_p559_563.pdf
+Source: E.W. Clark, The History and Evolution of Lanolin,1999
+Source: http://www.lanocreme.com/en/lanolin/benefits.aspx
+Source:http://www.imperial-oel-import.de/products/technical-lanolins-and-wool-greases.html
+WS Simpson and GH Crawshaw, Wool: Science and technology, Woodhead Publishing Limited in
+association with The Textile Institute, Cambridge, England
+Source: http://www.lanicare.com/lanolin.html
+Source:http://realizebeauty.wordpress.com/2009/06/03/what-is-lanolin-and-is-it-really-a-wondermoisturiser/
+Source: Andrew Banham, Lanolin and its derivatives
+Source: http://en.wikipedia.org/wiki/Lanolin
+J Floyd, Metzger, Method of separation of lanolin from crude wool-grease, 1919 (US 1330210 A)
+Source: https://www.truetest.com/PatientPDF/Patient_Wool%20Alcohols.pdf
+Source: http://www.nipponseika.co.jp/eng/industry/lanolin.htm
+Source: http://www.mypatchlink.com/pdf/wool_alcohol.pdf
+
+www.ajer.org
+
+Page 43
+
+

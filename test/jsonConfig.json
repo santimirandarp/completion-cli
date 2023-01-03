@@ -1,0 +1,13 @@
+{
+  "apiKey": "YOUR_API_KEY",
+  "model": "text-davinci-003",
+  "prePromptString": "How ",
+  "prompt": "old are",
+  "postPromptString": " you?",
+  "max_tokens": 90,
+  "temperature": 0,
+  "echo": true,
+  "frequency_penalty": 0,
+  "presence_penalty": 0,
+  "top_p": 1
+}
