@@ -10,7 +10,7 @@
     "declarationMap": true,
     "moduleResolution": "Node16",
     "module": "Node16",
-    "outDir": "lib-esm",
+    "outDir": "bin",
     "target": "es2017"
   },
   "include": ["./src/**/*"]
