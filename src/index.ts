@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-disable camelcase */
 import { createReadStream } from 'node:fs';
 

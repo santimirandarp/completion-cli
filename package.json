@@ -4,6 +4,7 @@
   "description": "Complete, explain or summarize text or files querying OpenAI models",
   "main": "./lib-esm/index.js",
   "types": "./lib-esm/index.d.ts",
+  "bin":{"completion-cli":"./lib-esm/index.js"},
   "keywords": [
     "openai-cli",
     "openai",
