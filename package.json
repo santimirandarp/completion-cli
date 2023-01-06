@@ -1,6 +1,6 @@
 {
   "name": "completion-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Complete, explain or summarize text or files querying OpenAI models",
   "main": "./lib-esm/index.js",
   "types": "./lib-esm/index.d.ts",
