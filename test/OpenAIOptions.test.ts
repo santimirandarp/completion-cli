@@ -1,22 +1,20 @@
 import { join } from 'path';
-import { describe, it, expect } from 'vitest';
 
-import { OpenAIOptions, type InputData } from '../src/OpenAIOptions';
+import OpenAIOptions from '../src/OpenAIOptions.js';
 
 describe('Generate options from flags', () => {
   it('cli options', () => {
     //generate the body from the cli options and default values
-    const openAIOptions = new OpenAIOptions({
-      cli: {
-        apiKey: 'hello',
-        prompt: 'How old are you?',
-        tokens: 100,
-        echo: true,
-        temperature: 0,
-      },
-    });
-
+    const userInput = {
+      apiKey: 'hello',
+      prompt: 'How old are you?',
+      tokens: 100,
+      echo: true,
+      temperature: 0,
+    };
+    const openAIOptions = new OpenAIOptions(userInput);
     const apiKey = openAIOptions.apiKey;
+    expect(apiKey).toBe('hello');
     expect({ ...openAIOptions }).toMatchObject({
       model: 'text-davinci-003',
       prompt: 'How old are you?',
@@ -29,12 +27,25 @@ describe('Generate options from flags', () => {
       stop: null,
       suffix: null,
     });
-    expect(apiKey).toBe('hello');
   });
-
+  it("no api key, it's required", () => {
+    const userInput = { prompt: 'How old are you?' };
+    expect(() => new OpenAIOptions(userInput)).toThrowError(
+      'No API key was found.',
+    );
+  });
+  it('update prompt method', () => {
+    const userInput = {
+      apiKey: 'hello',
+      prompt: 'How old are you?',
+    };
+    const openAIOptions = new OpenAIOptions(userInput);
+    openAIOptions.updatePrompt('meow');
+    expect(openAIOptions.prompt).toBe('meow');
+  });
   it('Generate options from config', () => {
     const openAIOptions = new OpenAIOptions({
-      configPath: join(__dirname, './jsonConfig.json'),
+      jsonConfig: join(__dirname, './jsonConfig.json'),
     });
     const apiKey = openAIOptions.apiKey;
 
@@ -55,18 +66,15 @@ describe('Generate options from flags', () => {
 
   it('cli options merged into config file options', () => {
     const inputData = {
-      cli: {
-        apiKey: 'hello',
-        prompt: 'tall are',
-        tokens: 110,
-        echo: false,
-      },
-      configPath: join(__dirname, './jsonConfig.json'),
+      apiKey: 'hello',
+      tokens: 110,
+      echo: false,
+      jsonConfig: join(__dirname, './jsonConfig.json'),
     };
     // cli and json options are combined.
     const expectedData = {
       model: 'text-davinci-003',
-      prompt: 'How tall are you?',
+      prompt: 'How old are you?',
       max_tokens: 110,
       temperature: 0,
       top_p: 1,
@@ -77,7 +85,6 @@ describe('Generate options from flags', () => {
     const openAIOptions = new OpenAIOptions(inputData);
     const apiKey = openAIOptions.apiKey;
     expect(apiKey).toBe('hello');
+    expect({ ...openAIOptions }).toMatchObject(expectedData);
   });
-
-  it.skip('Make prompt from filePath', () => {});
 });

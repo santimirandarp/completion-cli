@@ -1,23 +1,17 @@
 import { readFileSync } from 'fs';
-import { join } from 'path';
-import chalk from 'chalk';
 
 import type { CliOptions } from './cliOptions.js';
-import type { IOpenAIOptions, ConfigFileOptions } from './types.js';
+import type { IOpenAIOptions, JSONConfig } from './types.js';
+import singleTextInputOrError from './assert/singleTextInputOrError.js';
 
-export type InputData = {
-  //relative to the user cwd()
-  configPath?: string;
-  //the cli flags parsed by `meow`
-  cli?: Partial<CliOptions>;
-};
+type InputData = Partial<CliOptions>;
 /**
  *
  * @param text - the text to summarize
  * @param configPath - the path to the config file from the cwd (aka relative path)
  * @returns model options
  */
-export class OpenAIOptions implements IOpenAIOptions {
+export default class OpenAIOptions implements IOpenAIOptions {
   model: string;
   prompt: string;
   suffix: string | null;
@@ -32,21 +26,26 @@ export class OpenAIOptions implements IOpenAIOptions {
   #preQ: string;
   #postQ: string;
 
-  constructor(data: InputData = { cli: {} }) {
-    const { configPath, cli } = data;
-    let json: Partial<ConfigFileOptions> = {};
+  constructor(cli: InputData) {
+    /* 
+    the rest of properties not destructured because 
+    using cli?.propName makes it clear where it comes from. 
+    */
+    const { jsonConfig: configPath } = cli;
+
+    let json: Partial<JSONConfig> = {};
 
     if (configPath) {
-      json = JSON.parse(readFileSync(join(process.cwd(), configPath), 'utf8'));
+      json = JSON.parse(readFileSync(configPath, 'utf8'));
     }
-    this.#apiKey = cli?.apiKey || json.apiKey || '';
-    if (this.#apiKey === '') {
-      console.log(
-        chalk.red(
-          'No API key was found. Please provide one with the --apiKey flag or in the config file.',
-        ),
+
+    singleTextInputOrError(cli, json);
+
+    this.#apiKey = cli?.apiKey ?? json.apiKey ?? '';
+    if (!this.#apiKey) {
+      throw new Error(
+        'No API key was found. Please provide one with the --apiKey flag or in the config file.',
       );
-      process.exit(1);
     }
 
     this.#preQ = json.prePromptString ?? '';

@@ -1,5 +1,5 @@
-import { type OpenAIOptions } from './OpenAIOptions.js';
-import { openAICompletion } from './openAICompletion.js';
+import type OpenAIOptions from './OpenAIOptions.js';
+import openAICompletion from './openAICompletion.js';
 
 /**
  *
@@ -8,12 +8,8 @@ import { openAICompletion } from './openAICompletion.js';
  * @param apiKey - the OpenAI API key
  * @returns - the summary
  */
-export async function sendChunk(
-  requestBody: OpenAIOptions,
-  chunk: any,
-  apiKey?: string,
-) {
+export default async function (requestBody: OpenAIOptions, chunk: any) {
   const textToSummarize = chunk.toString() as string;
   requestBody.updatePrompt(textToSummarize);
-  return await openAICompletion(requestBody, apiKey);
+  return await openAICompletion(requestBody);
 }

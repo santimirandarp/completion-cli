@@ -1,36 +1,23 @@
-import chalk from 'chalk';
-
-import { type OpenAIOptions } from './OpenAIOptions.js';
+import type OpenAIOptions from './OpenAIOptions.js';
 const openAIURL = new URL('https://api.openai.com/v1/completions');
 
-function createRequest(openAIOptions: OpenAIOptions, apiKey?: string) {
-  const jsonApiKey = openAIOptions.apiKey;
-  if (!jsonApiKey && !apiKey) {
-    console.log(
-      chalk.red(
-        'Missing apiKey in options. There must be one in cli or in the config file.',
-      ),
-    );
-    process.exit(1);
-  }
+function createRequest(openAIOptions: OpenAIOptions) {
+  const apiKey = openAIOptions.apiKey;
   return new Request(openAIURL, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey || jsonApiKey}`,
+      Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify(openAIOptions),
   });
 }
 
-export async function openAICompletion(
-  openAIOptions: OpenAIOptions,
-  apiKey?: string,
-) {
+export default async function (openAIOptions: OpenAIOptions) {
   const payload = openAIOptions;
   try {
-    const request = createRequest(payload, apiKey);
+    const request = createRequest(payload);
     const response = await fetch(request);
     if (response.ok) {
       const data = await response.json();
@@ -39,7 +26,6 @@ export async function openAICompletion(
       throw new Error(`${response.statusText}. statusCode: ${response.status}`);
     }
   } catch (error) {
-    console.log(chalk.red(`Something went wrong. ${error}`));
-    process.exit(1);
+    throw new Error(`${error}`);
   }
 }

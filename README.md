@@ -1,11 +1,15 @@
-# explainer-cli
+# completion-cli
 
 [![NPM version][npm-image]][npm-url]
 [![build status][ci-image]][ci-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
 
-`explainer-cli` is NodeJS CLI tool for explaining or summarizing text or text files.
+`completion-cli` is a NodeJS command-line tool to complete text or text files. It uses the OpenAI completions endpoint.
+
+In this context, _completion_ means summarize, continue the "flow", explaining text, etc.
+
+This cli tool was done for personal use, but feel free to use it.
 
 ## Requirements
 
@@ -19,9 +23,15 @@
 
 ## Installation
 
-`npx explainer-cli <options>`
+`npx completion-cli <options>`
 
-You can also use standard `npm i explainer-cli`. And then execute the script.
+You can also use standard `npm i completion-cli`. And then execute the script.
+
+It is also possible to run it either downloading and compiling the Typescript project or running ts-node, for example:
+
+```typescript
+node --loader ts-node/esm --inspect ./src/index.ts --prompt "What are the best places to live in Germany" --apiKey API_KEY_HERE --tokens 400 -T 0
+```
 
 ## Usage Examples
 
@@ -29,24 +39,20 @@ You can also use standard `npm i explainer-cli`. And then execute the script.
 
 <summary> See Usage Examples </summary>
 
-- summarize a blogpost (clean text file):
+- Send the text from `blogpost.txt` using supported option in the config file.
+
+I tend to use this option almost exclusively.
 
 ```shell
- explainer-cli -k this5436is546thekey25 -f ./path/to/blogpost.txt
+ completion-cli -k this5436is546thekey25 -j ./path/to/config.json -f ./path/to/blogpost.txt
 ```
 
-- Create a prompt using the blogpost text and any supported option in the config file.
+Example of a [json config here](./test/jsonConfig.json)
+
+- Creative reply, 2000 tokens long roughly
 
 ```shell
- explainer-cli -k this5436is546thekey25 -j ./path/to/config.json -f ./path/to/blogpost.txt
-```
-
-If no `prePromptString` and no `postPromptString` the text will be summarized (default). Otherwise those will encapsulate (i.e surround) the prompt/text.
-
-- send a simple prompt, asking for a creative reply, and about 2000 tokens long
-
-```shell
- explainer-cli -k this5436is546thekey25 -t 2000 -T 1 -p Explain me the world:
+ completion-cli -k this5436is546thekey25 -t 2000 -T 1 -p "Explain me the world:"
 ```
 
 </details>
@@ -54,24 +60,23 @@ If no `prePromptString` and no `postPromptString` the text will be summarized (d
 
 ## Options
 
-Pass either CLI flags or a JSON config path. The CLI and JSON options are combined, CLI overwrites JSON. For the text inputs you can only pass `--prompt` or `--filePath` not both, and any of these overwrites `json.prompt`
+Pass either cli flags or a JSON-config path. The CLI and JSON options are combined, CLI overwrites JSON. But only one of `--prompt` or `--filePath` or `json.prompt` is allowed.
 
 <details>
 <summary> Cli Supported Options </summary>
 
 - `--help` or `-h`, shows all options.
-- `--apiKey` or `-k`, expects your openai api key, generated at [OpenAI Official Site](https://beta.openai.com/). **Example**: `explainer-cli -k this5436is546thekey25`
-- `--filePath` or `-f`, the relative path to the text file. **Example**: `explainer-cli -f ./path/to/blogpost.txt`
-- `--jsonConfig` or `-j`, path to a json file with any of the [Open AI Supported Options](#supported-options). **Example**: `explainer-cli -j ./path/to/config.json`
-- `--url` or `-u`: **not implemented yet.**
+- `--apiKey` or `-k`, your openAI api key, generated at [OpenAI Official Site](https://beta.openai.com/). **Example**: `completion-cli -k this5436is546thekey25`
+- `--filePath` or `-f`, the relative path to the text file. **Example**: `completion-cli -f ./path/to/blogpost.txt`
+- `--jsonConfig` or `-j`, path to a json file with any of the [Open AI Supported Options](#supported-onot both, and any of these overwrites ptions). **Example**: `completion-cli -j ./path/to/config.json`
 
 The CLI only supports a small subset of [OpenAI options][1]
 
-- `--prompt` or `-p`: one way to pass text. **Example**: `explainer-cli -p Explain me the world: `
+- `--prompt` or `-p`: one way to pass text. **Example**: `completion-cli -p Explain me the world: `. The length limit is 15000 bytes (ascii characters.)
 - `--model` or `-m`, the default model used is _text-davinci-003_. Other flavours are: _text-curie-001_, _text-babbage-001_. Default `text-davinci-003`
 - `--tokens` or `-t` the expected response length in tokens (max is 4096, about 1700 english words.)`
 - `--temperature` or `-T` (capital **T**). How creative the model is. Float between 0 and 1. Default 0.
-- `--echo` or `-e`. Boolean, whether to concatenate the response to the prompt or not.
+- `--echo` or `-e`. Explicit `boolean`. Indicates whether to concatenate the response to the prompt or not. You need to specify `--echo [true, false]`
 
 </details>
 
@@ -79,7 +84,7 @@ The CLI only supports a small subset of [OpenAI options][1]
 
 <br/>
 
-Below there is the expected schema for a json file. All the values are optional. For explanations and default values check [the schema file](./OpenAIOptions).
+All the values in the object are optional. For explanations and default values check [the schema file](./OpenAIOptions).
 
 <summary>JSON Options</summary>
 
@@ -111,11 +116,14 @@ The package is new and there will be errors. Please file issues or PRs.
 
 ## ToDos
 
-- Support multiple completions from json configuration using the option `n`.
-- Support for `stream` option.
-- Support html (cleaning up the tags.). This may be done during stream.
-- Support pdf.
-- Support both from urls as well.
+- [ ] Support different text encoding for filePath (streams have option for this)
+- [ ] Support a verbose option for extra logs.
+- [ ] Improve boolean flags (atm you have to specify `--flagName true/false`).
+- [ ] Support multiple completions from json configuration using the option `n`.
+- [ ] Support for `stream` option.
+- [ ] Support html (cleaning up the tags.). This may be done during stream.
+- [ ] Support pdf.
+- [ ] Support both from urls as well.
 
 The code is being thought such that it is not too difficult to adapt it to the browser.
 
@@ -126,11 +134,11 @@ The code is being thought such that it is not too difficult to adapt it to the b
 There are no restrictions and you can do with the code what you prefer.
 
 [1]: https://beta.openai.com/docs/api-reference/completions/create
-[npm-image]: https://img.shields.io/npm/v/explainer-cli.svg
-[npm-url]: https://www.npmjs.com/package/explainer-cli
-[ci-image]: https://github.com/santimirandarp/explainer-cli/workflows/Node.js%20CI/badge.svg?branch=main
-[ci-url]: https://github.com/santimirandarp/explainer-cli/actions?query=workflow%3A%22Node.js+CI%22
-[codecov-image]: https://img.shields.io/codecov/c/github/santimirandarp/explainer-cli.svg
-[codecov-url]: https://codecov.io/gh/santimirandarp/explainer-cli
-[download-image]: https://img.shields.io/npm/dm/explainer-cli.svg
-[download-url]: https://www.npmjs.com/package/explainer-cli
+[npm-image]: https://img.shields.io/npm/v/completion-cli.svg
+[npm-url]: https://www.npmjs.com/package/completion-cli
+[ci-image]: https://github.com/santimirandarp/completion-cli/workflows/Node.js%20CI/badge.svg?branch=main
+[ci-url]: https://github.com/santimirandarp/completion-cli/actions?query=workflow%3A%22Node.js+CI%22
+[codecov-image]: https://img.shields.io/codecov/c/github/santimirandarp/completion-cli.svg
+[codecov-url]: https://codecov.io/gh/santimirandarp/completion-cli
+[download-image]: https://img.shields.io/npm/dm/completion-cli.svg
+[download-url]: https://www.npmjs.com/package/completion-cli

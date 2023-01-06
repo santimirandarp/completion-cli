@@ -1,0 +1,19 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  nodejs:
+    # Documentation: https://github.com/zakodium/workflows#nodejs-ci
+    uses: zakodium/workflows/.github/workflows/nodejs.yml@nodejs-v1
+    with:
+      node-version-matrix: '[19]'
+      node-version: 19
+      lint-eslint: true # runs the eslint npm script
+      lint-prettier: true # runs the prettier npm script
+      lint-check-types: true # runs check-types in TS projects
+      upload-coverage: true

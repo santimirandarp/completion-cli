@@ -1,0 +1,13 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get package name
+        run: echo "$(ls .)"

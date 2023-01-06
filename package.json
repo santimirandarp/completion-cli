@@ -1,16 +1,14 @@
 {
-  "name": "explainer-cli",
+  "name": "completion-cli",
   "version": "0.0.0",
-  "description": "Explain text or files querying OpenAI models",
+  "description": "Complete, explain or summarize text or files querying OpenAI models",
   "main": "./lib-esm/index.js",
   "types": "./lib-esm/index.d.ts",
   "keywords": [
     "openai-cli",
     "openai",
-    "explainer",
-    "summarize",
-    "Open AI",
-    "gpt3"
+    "text completion",
+    "summarize text"
   ],
   "author": "Santi Miranda",
   "license": "MIT",
@@ -19,29 +17,31 @@
     "lib-esm"
   ],
   "scripts": {
-    "check-types": "tsc --noEmit",
-    "clean": "rimraf lib lib-esm",
     "eslint": "eslint src --cache",
     "eslint-fix": "npm run eslint -- --fix",
-    "prepack": "npm run tsc",
     "prettier": "prettier --check src",
     "prettier-write": "prettier --write src",
-    "tests": "vitest run --coverage && npm run eslint && npm run prettier && npm run check-types",
-    "watch": "vitest",
-    "coverage": "vitest --coverage",
-    "tsc-only": " tsc --project tsconfig.json",
-    "tsc": "npm run clean &&  tsc --project tsconfig.json"
+    "check-types": "tsc --noEmit",
+    "prepack": " tsc --project tsconfig.json",
+    "clean": "rimraf lib lib-esm",
+    "clean-build": "npm run clean &&  npm run build",
+    "vitest-watch": "vitest",
+    "vitest-once": "vitest run",
+    "vitest-cov": "vitest run --coverage",
+    "test-only": "vitest run --coverage",
+    "chores": "vitest run --coverage && npm run eslint && npm run prettier && npm run check-types"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santimirandarp/explainer-cli.git"
+    "url": "git+https://github.com/santimirandarp/completion-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/santimirandarp/explainer-cli/issues"
+    "url": "https://github.com/santimirandarp/completion-cli/issues"
   },
-  "homepage": "https://github.com/santimirandarp/explainer-cli#readme",
+  "homepage": "https://github.com/santimirandarp/completion-cli#readme",
   "devDependencies": {
     "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^29.2.5",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
@@ -57,8 +57,8 @@
     "vitest": "^0.26.3"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
-    "meow": "^11.0.0"
+    "meow": "^11.0.0",
+    "ts-node": "^10.9.1"
   },
   "type": "module"
 }

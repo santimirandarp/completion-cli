@@ -75,7 +75,7 @@ export interface IOpenAIOptions {
 /**
  * Extending from the OpenAIOptions interface to add the config file options
  */
-export interface ConfigFileOptions extends IOpenAIOptions {
+export interface JSONConfig extends IOpenAIOptions {
   /**
    * Your Open-generated API key [see](https://beta.openai.com/account/api-keys)
    */
