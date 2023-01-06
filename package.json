@@ -1,6 +1,6 @@
 {
   "name": "completion-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Complete, explain or summarize text or files querying OpenAI models",
   "main": "./bin/index.js",
   "types": "./bin/index.d.ts",

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/santimirandarp/completion-cli/compare/v1.0.2...v1.0.3) (2023-01-06)
+
+
+### Bug Fixes
+
+* use only bin for the binary ([fbc9bfc](https://github.com/santimirandarp/completion-cli/commit/fbc9bfc2fb573e50e5f5d910dc9564e0124b78ab))
+
 ## [1.0.2](https://github.com/santimirandarp/completion-cli/compare/v1.0.1...v1.0.2) (2023-01-06)
 
 
