@@ -25,8 +25,11 @@ This cli tool was done for personal use, but feel free to use it.
 
 will give you the options.
 
-It is also possible to run it either downloading and compiling the Typescript project or running ts-node, for example:
+It is also possible to download and run it if you have `ts-node`, using `--esm` option:
 
+```shell
+ts-node --esm src/index.ts --filePath ../input.txt -k ${OPENAI_API_KEY} -j config.json -t 150
+```
 ## Usage Examples
 
 <details>
