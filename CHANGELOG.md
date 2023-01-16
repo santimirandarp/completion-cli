@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/santimirandarp/completion-cli/compare/v1.0.3...v1.0.4) (2023-01-16)
+
+
+### Bug Fixes
+
+* README ([380c053](https://github.com/santimirandarp/completion-cli/commit/380c0530aa4fdc57f987273048f32c3497a45a32))
+* rollback to 15Mb ([2966d26](https://github.com/santimirandarp/completion-cli/commit/2966d26f59ff8736c362a4c3435741eed11ed0da))
+
 ## [1.0.3](https://github.com/santimirandarp/completion-cli/compare/v1.0.2...v1.0.3) (2023-01-06)
 
 
