@@ -26,7 +26,7 @@ async function getOpenAICompletion() {
   } else if (filePath) {
     const stream = createReadStream(filePath, {
       // we need to add an option for this setting
-      highWaterMark: 20000,
+      highWaterMark: 15000,
     });
 
     log('The filepath is: ', stream.path);
