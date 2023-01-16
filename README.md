@@ -15,23 +15,17 @@ This cli tool was done for personal use, but feel free to use it.
 
 - **NodeJS Version**: You need [**NodeJS v19+**](https://nodejs.org/en/download/current/) to run it, because the new Node v19 API `fetch` is used to query the server.
 
-- Endpoint: OpenAI `https://api.openai.com/v1/completions` endpoint.
-
 ## Security
 
 - The `apiKey` is only known to you and the OpenAI servers.
 
 ## Installation
 
-`npx completion-cli <options>`
+`npx completion-cli --help`
 
-You can also use standard `npm i completion-cli`. And then execute the script.
+will give you the options.
 
 It is also possible to run it either downloading and compiling the Typescript project or running ts-node, for example:
-
-```typescript
-node --loader ts-node/esm --inspect ./src/index.ts --prompt "What are the best places to live in Germany" --apiKey API_KEY_HERE --tokens 400 -T 0
-```
 
 ## Usage Examples
 
@@ -44,7 +38,7 @@ node --loader ts-node/esm --inspect ./src/index.ts --prompt "What are the best p
 I tend to use this option almost exclusively.
 
 ```shell
- completion-cli -k this5436is546thekey25 -j ./path/to/config.json -f ./path/to/blogpost.txt
+npx completion-cli -k this5436is546thekey25 -j ./path/to/config.json -f ./path/to/blogpost.txt
 ```
 
 Example of a [json config here](./test/jsonConfig.json)
@@ -52,7 +46,7 @@ Example of a [json config here](./test/jsonConfig.json)
 - Creative reply, 2000 tokens long roughly
 
 ```shell
- completion-cli -k this5436is546thekey25 -t 2000 -T 1 -p "Explain me the world:"
+npx completion-cli -k this5436is546thekey25 -t 2000 -T 1 -p "Explain me the world:"
 ```
 
 </details>
@@ -65,7 +59,7 @@ Pass either cli flags or a JSON-config path. The CLI and JSON options are combin
 <details>
 <summary> Cli Supported Options </summary>
 
-- `--help` or `-h`, shows all options.
+- `--help`
 - `--apiKey` or `-k`, your openAI api key, generated at [OpenAI Official Site](https://beta.openai.com/). **Example**: `completion-cli -k this5436is546thekey25`
 - `--filePath` or `-f`, the relative path to the text file. **Example**: `completion-cli -f ./path/to/blogpost.txt`
 - `--jsonConfig` or `-j`, path to a json file with any of the [Open AI Supported Options](#supported-onot both, and any of these overwrites ptions). **Example**: `completion-cli -j ./path/to/config.json`
