@@ -32,7 +32,7 @@ async function getOpenAICompletion() {
 
     const stream = createReadStream(filePath, {
       // we need to add an option for this setting
-      highWaterMark: 4000,
+      highWaterMark: 10000,
     });
 
     for await (let chunk of stream) {
