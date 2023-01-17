@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/santimirandarp/completion-cli/compare/v1.0.4...v1.1.0) (2023-01-17)
+
+
+### Features
+
+* basic html support ([cccfd35](https://github.com/santimirandarp/completion-cli/commit/cccfd3580f030dcfa659e57e2cee39f3c03133fc))
+
 ## [1.0.4](https://github.com/santimirandarp/completion-cli/compare/v1.0.3...v1.0.4) (2023-01-16)
 
 
