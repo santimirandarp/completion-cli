@@ -36,6 +36,12 @@ ts-node --esm src/index.ts --filePath ../input.txt -k ${OPENAI_API_KEY} -j confi
 
 <summary> See Usage Examples </summary>
 
+- Simplest one. Request creative reply of 2000 tokens long.
+
+```shell
+npx completion-cli -k this5436is546thekey25 -t 2000 -T 1 -p "Explain me the world:"
+```
+
 - Send the text from `blogpost.txt` using supported option in the config file.
 
 I tend to use this option almost exclusively.
@@ -45,12 +51,6 @@ npx completion-cli -k this5436is546thekey25 -j ./path/to/config.json -f ./path/t
 ```
 
 Example of a [json config here](./test/jsonConfig.json)
-
-- Creative reply, 2000 tokens long roughly
-
-```shell
-npx completion-cli -k this5436is546thekey25 -t 2000 -T 1 -p "Explain me the world:"
-```
 
 </details>
 <br/>
