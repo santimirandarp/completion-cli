@@ -9,11 +9,11 @@
 
 In this context, _completion_ means summarize, continue the "flow", explaining text, etc.
 
-This cli tool was done for personal use, but feel free to use it.
+This cli tool was done for personal use, but feel free to use it. When passing whole text files, it creates a ReadableStream and sends it by 15Mb chunks to server.
 
 ## Requirements
 
-- **NodeJS Version**: You need [**NodeJS v19+**](https://nodejs.org/en/download/current/) to run it, because the new Node v19 API `fetch` is used to query the server.
+- [**NodeJS v19+**](https://nodejs.org/en/download/current/) as `fetch` is used to query the server.
 
 ## Security
 
