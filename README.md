@@ -9,7 +9,7 @@
 
 In this context, _completion_ means summarize, continue the "flow", explaining text, etc.
 
-This cli tool was done for personal use, but feel free to use it. When passing whole text files, it creates a ReadableStream and sends it by 15Mb chunks to server.
+This cli tool was done for personal use, but feel free to use it. When passing whole text or html files, it creates a ReadableStream and sends it by 15Mb chunks to server.
 
 **Requirements**
 
@@ -114,11 +114,11 @@ The package is new and there will be errors. Please file issues or PRs.
 ## ToDos
 
 - [ ] Support different text encoding for filePath (streams have option for this)
-- [ ] Support a verbose option for extra logs.
+- [x] Support a verbose option for extra logs.
 - [ ] Improve boolean flags (atm you have to specify `--flagName true/false`).
 - [ ] Support multiple completions from json configuration using the option `n`.
 - [ ] Support for `stream` option.
-- [ ] Support html (cleaning up the tags.). This may be done during stream.
+- [x] Support html (cleaning up the tags.). This may be done during stream.
 - [ ] Support pdf.
 - [ ] Support both from urls as well.
 
