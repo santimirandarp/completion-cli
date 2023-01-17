@@ -15,6 +15,9 @@ function createRequest(openAIOptions: OpenAIOptions) {
 }
 
 export default async function (openAIOptions: OpenAIOptions) {
+  if (openAIOptions.prompt === undefined) {
+    openAIOptions.prompt = 'Explain me the world: ';
+  }
   const payload = openAIOptions;
   try {
     const request = createRequest(payload);

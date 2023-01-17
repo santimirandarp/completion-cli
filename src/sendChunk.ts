@@ -8,8 +8,7 @@ import openAICompletion from './openAICompletion.js';
  * @param apiKey - the OpenAI API key
  * @returns - the summary
  */
-export default async function (requestBody: OpenAIOptions, chunk: any) {
-  const textToSummarize = chunk.toString() as string;
-  requestBody.updatePrompt(textToSummarize);
+export default async function (requestBody: OpenAIOptions, chunk: string) {
+  requestBody.updatePrompt(chunk);
   return await openAICompletion(requestBody);
 }

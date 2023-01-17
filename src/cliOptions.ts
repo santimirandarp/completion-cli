@@ -5,6 +5,7 @@ export const cliOptions = meow(
     - --apiKey or -k, expects your openai api key, generated at [openai official site](https://beta.openai.com/). **Example**: completion-cli -k this5436is546thekey25
     - --filePath or -f, the relative path to the text file. **Example**: completion-cli -f ./path/to/blogpost.txt
     - --jsonConfig or -j, path to a json file with any of the [Open AI Supported Options](#supported-options). **Example**: completion-cli -j ./path/to/config.json
+    - --verbose or -v, gives you some feedback as it executes. Default false.
 
     The CLI only supports a small subset of [OpenAI options](https://beta.openai.com/docs/api-reference/completions/create)
 
@@ -53,6 +54,10 @@ export const cliOptions = meow(
       echo: {
         type: 'boolean',
         alias: 'e',
+      },
+      verbose: {
+        type: 'boolean',
+        alias: 'v',
       },
     },
   },

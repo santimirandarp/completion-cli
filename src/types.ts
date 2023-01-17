@@ -13,12 +13,10 @@ export interface IOpenAIOptions {
   model: string;
   /**
    * Use only if you do not want to use the file contents as the prompt.
-   * The prompt is restricted with the same rules as OpenAPI's rules (2048 or 4096 tokens)
-   * The prompt to provide to
-   * You can use `""` to remove it
-   * @default: <|endoftext|>
+   * OpenAI will error with too many tokens (depends in the model, but usually 2048)
+   * @default: "Explain me the world: "
    */
-  prompt: string;
+  prompt?: string;
   /**
    * The suffix that comes after a completion of inserted text.
    * @default null

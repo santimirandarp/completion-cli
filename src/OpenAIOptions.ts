@@ -13,7 +13,7 @@ type InputData = Partial<CliOptions>;
  */
 export default class OpenAIOptions implements IOpenAIOptions {
   model: string;
-  prompt: string;
+  prompt?: string;
   suffix: string | null;
   max_tokens: number;
   temperature: number;
@@ -38,7 +38,6 @@ export default class OpenAIOptions implements IOpenAIOptions {
     if (configPath) {
       json = JSON.parse(readFileSync(configPath, 'utf8'));
     }
-
     singleTextInputOrError(cli, json);
 
     this.#apiKey = cli?.apiKey ?? json.apiKey ?? '';
@@ -51,8 +50,8 @@ export default class OpenAIOptions implements IOpenAIOptions {
     this.#preQ = json.prePromptString ?? '';
     this.#postQ = json.postPromptString ?? '';
     this.model = cli?.model || json.model || 'text-davinci-003';
-    const input = cli?.prompt ?? (cli?.filePath ? '' : json.prompt || '');
-    this.prompt = this.makeFirstPrompt(input);
+    // if this is undefined before sending, make it "Explain me the world: "
+    this.prompt = this.makeFirstPrompt(cli?.prompt ?? json?.prompt);
     this.suffix = json.suffix ?? null;
     this.max_tokens = Math.floor(cli?.tokens ?? json.max_tokens ?? 16);
     this.temperature = Math.floor(cli?.temperature ?? json.temperature ?? 1);
@@ -69,7 +68,8 @@ export default class OpenAIOptions implements IOpenAIOptions {
     // this is so that the api key is not stringified
     return this.#apiKey;
   }
-  private makeFirstPrompt(text: string) {
+  private makeFirstPrompt(text: string | undefined) {
+    if (typeof text !== 'string') return;
     return this.#preQ + text + this.#postQ;
   }
 }
