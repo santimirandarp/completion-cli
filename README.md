@@ -11,11 +11,11 @@ In this context, _completion_ means summarize, continue the "flow", explaining t
 
 This cli tool was done for personal use, but feel free to use it. When passing whole text files, it creates a ReadableStream and sends it by 15Mb chunks to server.
 
-## Requirements
+**Requirements**
 
-- [**NodeJS v19+**](https://nodejs.org/en/download/current/) as `fetch` is used to query the server.
+- [NodeJS v19+](https://nodejs.org/en/download/current/) as `fetch` is used to query the server.
 
-## Security
+**Security**
 
 - The `apiKey` is only known to you and the OpenAI servers.
 
