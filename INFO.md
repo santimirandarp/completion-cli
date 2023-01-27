@@ -18,3 +18,6 @@ A few concepts from [openai quickstart](https://beta.openai.com/docs/quickstart/
 - `max_tokens`: is the expected length of reponse. Also 4000 tokens max.
 - `stop`: tells the AI to stop generating tokens (stops translating or whatever is doing).
 - `fine_tuning`: this is fantastic to give some examples that teach the model how to do its job.
+
+
+
